@@ -1,0 +1,84 @@
+/* ===== Download App Section ===== */
+.background {
+    background: #000;
+}
+.app-download-section {
+    width: 100%;
+    padding: 40px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-download-box {
+    width: 100%;
+    max-width: 500px;
+
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.app-download-box h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.app-download-box p {
+    color: #cbd5e1;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.app-download-btn {
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background: #22c55e;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.app-download-btn:hover {
+    background: #16a34a;
+    transform: translateY(-2px);
+}
+
+/* ===== Mobile Responsive ===== */
+
+@media (max-width: 768px) {
+
+    .app-download-section {
+        padding: 30px 12px;
+    }
+
+    .app-download-box {
+        padding: 10px;
+    }
+
+    .app-download-box h2 {
+        font-size: 24px;
+    }
+
+    .app-download-box p {
+        font-size: 14px;
+    }
+
+    .app-download-btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
